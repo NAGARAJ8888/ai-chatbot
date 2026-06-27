@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "category": "leave",
+    "question": "How do I apply for leave?",
+    "answer": "Log in to the HR portal, navigate to the Leave section, click 'Apply Leave', select the leave type, choose the start and end dates, provide a reason if required, and submit the request for manager approval.",
+    "keywords": [
+      "leave",
+      "apply",
+      "leave request",
+      "vacation",
+      "holiday",
+      "time off",
+      "request leave"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "leave",
+    "question": "What types of leave are available?",
+    "answer": "Employees can apply for Casual Leave, Sick Leave, Earned Leave, Maternity Leave, Paternity Leave and Unpaid Leave depending on company policy.",
+    "keywords": [
+      "leave types",
+      "casual leave",
+      "sick leave",
+      "earned leave",
+      "maternity",
+      "paternity",
+      "unpaid leave"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "leave",
+    "question": "Who approves my leave request?",
+    "answer": "Your reporting manager reviews and approves or rejects your leave request based on team availability and company policy.",
+    "keywords": [
+      "approve leave",
+      "manager",
+      "approval",
+      "leave approval",
+      "reporting manager"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "leave",
+    "question": "How can I check my leave balance?",
+    "answer": "Open the Leave Dashboard and select 'Leave Balance' to view your available leave for each leave type.",
+    "keywords": [
+      "leave balance",
+      "remaining leave",
+      "available leave",
+      "balance",
+      "leave remaining"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "leave",
+    "question": "Can I cancel my leave request?",
+    "answer": "Yes. Pending leave requests can be cancelled before they are approved. Approved leave may require manager approval for cancellation.",
+    "keywords": [
+      "cancel leave",
+      "withdraw leave",
+      "remove leave",
+      "pending leave",
+      "leave cancellation"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "leave",
+    "question": "Can I edit a submitted leave request?",
+    "answer": "You can edit a leave request only if it has not yet been approved. Once approved, contact your manager or HR for modifications.",
+    "keywords": [
+      "edit leave",
+      "modify leave",
+      "update leave",
+      "change leave request"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "leave",
+    "question": "What happens if my leave request is rejected?",
+    "answer": "If your leave request is rejected, you will receive a notification with the rejection reason. You may modify the request and submit it again.",
+    "keywords": [
+      "leave rejected",
+      "rejected leave",
+      "leave denial",
+      "reject request",
+      "leave status"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "leave",
+    "question": "Can I apply for a half-day leave?",
+    "answer": "Yes. Select the Half-Day option while applying for leave and choose whether the leave is for the first half or second half of the working day.",
+    "keywords": [
+      "half day",
+      "half leave",
+      "morning leave",
+      "afternoon leave",
+      "partial leave"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "leave",
+    "question": "Is a medical certificate required for sick leave?",
+    "answer": "A medical certificate may be required for extended sick leave according to company policy. Short-term sick leave usually does not require supporting documents.",
+    "keywords": [
+      "medical certificate",
+      "doctor certificate",
+      "sick leave",
+      "medical proof",
+      "illness"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "leave",
+    "question": "How can I view my leave history?",
+    "answer": "Go to the Leave Dashboard and open 'Leave History' to view all previous leave requests, their status, approval dates and leave details.",
+    "keywords": [
+      "leave history",
+      "previous leave",
+      "past leave",
+      "leave records",
+      "leave status history"
+    ]
+  },
+{
+  "id": 11,
+  "category": "jobs",
+  "question": "How do I create a job posting?",
+  "answer": "Go to the Recruitment module, click 'Create Job', enter the job title, department, location, job description, required skills and employment type, then save or publish the job.",
+  "keywords": [
+    "create job",
+    "job posting",
+    "new job",
+    "post job",
+    "recruitment",
+    "job opening",
+    "vacancy"
+  ]
+},
+{
+  "id": 12,
+  "category": "jobs",
+  "question": "Who can create job postings?",
+  "answer": "Only users with HR Manager or Recruiter roles are authorized to create and publish job postings.",
+  "keywords": [
+    "who can create job",
+    "permission",
+    "recruiter",
+    "hr manager",
+    "job permission",
+    "authorization"
+  ]
+},
+{
+  "id": 13,
+  "category": "jobs",
+  "question": "What information is required when creating a job?",
+  "answer": "A job posting typically requires the job title, department, location, employment type, experience level, required skills, salary range, job description and application deadline.",
+  "keywords": [
+    "job details",
+    "required fields",
+    "job information",
+    "job description",
+    "salary",
+    "skills",
+    "department"
+  ]
+},
+{
+  "id": 14,
+  "category": "jobs",
+  "question": "Can I edit a published job?",
+  "answer": "Yes. Open the job details page, click 'Edit', update the required information and save your changes.",
+  "keywords": [
+    "edit job",
+    "modify job",
+    "update job",
+    "change job",
+    "published job"
+  ]
+},
+{
+  "id": 15,
+  "category": "jobs",
+  "question": "Can I close a job posting?",
+  "answer": "Yes. Once hiring is complete, you can mark the job as Closed to stop accepting new applications.",
+  "keywords": [
+    "close job",
+    "stop hiring",
+    "close vacancy",
+    "job closed",
+    "end recruitment"
+  ]
+},
+{
+  "id": 16,
+  "category": "jobs",
+  "question": "How do I assign a hiring manager?",
+  "answer": "While creating or editing a job posting, select the Hiring Manager from the available employee list before saving the job.",
+  "keywords": [
+    "assign manager",
+    "hiring manager",
+    "recruitment manager",
+    "job owner",
+    "manager assignment"
+  ]
+},
+{
+  "id": 17,
+  "category": "jobs",
+  "question": "How can I view job applicants?",
+  "answer": "Open the Recruitment module, select the desired job posting and navigate to the Applicants section to view all submitted applications.",
+  "keywords": [
+    "job applicants",
+    "candidates",
+    "applications",
+    "view applicants",
+    "candidate list"
+  ]
+},
+{
+  "id": 18,
+  "category": "jobs",
+  "question": "Can I duplicate an existing job posting?",
+  "answer": "Yes. Use the Duplicate Job option to create a copy of an existing job posting, then update the required details before publishing.",
+  "keywords": [
+    "duplicate job",
+    "copy job",
+    "clone job",
+    "reuse job",
+    "existing job"
+  ]
+},
+{
+  "id": 19,
+  "category": "jobs",
+  "question": "How do I archive a completed job?",
+  "answer": "After recruitment is complete, open the job details page and select 'Archive' to move the job to the archived list while keeping its history.",
+  "keywords": [
+    "archive job",
+    "completed job",
+    "finished hiring",
+    "job archive",
+    "old job"
+  ]
+},
+{
+  "id": 20,
+  "category": "jobs",
+  "question": "Can I delete a draft job posting?",
+  "answer": "Yes. Draft job postings that have not been published can be permanently deleted from the Recruitment module.",
+  "keywords": [
+    "delete draft",
+    "remove draft",
+    "draft job",
+    "delete job",
+    "unpublished job"
+  ]
+},
+{
+  "id": 21,
+  "category": "payroll",
+  "question": "When is salary credited?",
+  "answer": "Salary is credited on the last working day of every month. If the payday falls on a holiday or weekend, salary may be processed on the previous working day.",
+  "keywords": [
+    "salary",
+    "credited",
+    "salary date",
+    "payday",
+    "payment",
+    "monthly salary",
+    "salary credit"
+  ]
+},
+{
+  "id": 22,
+  "category": "payroll",
+  "question": "How is my salary calculated?",
+  "answer": "Salary is calculated using your basic pay, allowances, bonuses, overtime earnings, statutory deductions and applicable taxes to determine your final net salary.",
+  "keywords": [
+    "salary calculation",
+    "calculate salary",
+    "pay calculation",
+    "gross salary",
+    "net salary",
+    "earnings"
+  ]
+},
+{
+  "id": 23,
+  "category": "payroll",
+  "question": "What deductions are included in payroll?",
+  "answer": "Payroll deductions may include income tax, provident fund, professional tax, insurance contributions and any other deductions applicable under company policy.",
+  "keywords": [
+    "deductions",
+    "tax",
+    "pf",
+    "professional tax",
+    "insurance",
+    "salary deduction"
+  ]
+},
+{
+  "id": 24,
+  "category": "payroll",
+  "question": "How do I download my payslip?",
+  "answer": "Open the Payroll module, go to Payslips, select the required month and click Download to save your payslip as a PDF.",
+  "keywords": [
+    "payslip",
+    "salary slip",
+    "download payslip",
+    "pay slip",
+    "salary statement"
+  ]
+},
+{
+  "id": 25,
+  "category": "payroll",
+  "question": "What is the difference between gross salary and net salary?",
+  "answer": "Gross salary is the total earnings before deductions. Net salary is the amount credited to your bank account after taxes and other deductions are applied.",
+  "keywords": [
+    "gross salary",
+    "net salary",
+    "salary difference",
+    "take home salary",
+    "salary terms"
+  ]
+},
+{
+  "id": 26,
+  "category": "payroll",
+  "question": "How can I update my bank account details?",
+  "answer": "Go to your Employee Profile, open Payroll Information, update your bank details and submit the request for verification before the next payroll cycle.",
+  "keywords": [
+    "bank account",
+    "update bank",
+    "salary account",
+    "account details",
+    "bank information"
+  ]
+},
+{
+  "id": 27,
+  "category": "payroll",
+  "question": "What should I do if my salary is delayed?",
+  "answer": "First verify the payroll processing schedule. If the salary is still not credited after the expected date, contact the Payroll or HR department for assistance.",
+  "keywords": [
+    "salary delayed",
+    "late salary",
+    "salary issue",
+    "salary not received",
+    "payroll issue"
+  ]
+},
+{
+  "id": 28,
+  "category": "payroll",
+  "question": "How is overtime payment calculated?",
+  "answer": "Approved overtime hours are calculated according to company policy and multiplied by the applicable overtime rate before being added to your monthly payroll.",
+  "keywords": [
+    "overtime",
+    "extra hours",
+    "ot payment",
+    "overtime salary",
+    "overtime calculation"
+  ]
+},
+{
+  "id": 29,
+  "category": "payroll",
+  "question": "How are bonuses processed?",
+  "answer": "Performance bonuses, incentives and other rewards are processed through payroll after management approval and are included in the salary for the applicable payroll period.",
+  "keywords": [
+    "bonus",
+    "incentive",
+    "reward",
+    "performance bonus",
+    "bonus payment"
+  ]
+},
+{
+  "id": 30,
+  "category": "payroll",
+  "question": "Who should I contact for payroll-related issues?",
+  "answer": "For payroll questions such as salary, deductions, payslips or bank account updates, contact the Payroll team or the HR department.",
+  "keywords": [
+    "payroll support",
+    "salary support",
+    "hr support",
+    "payroll contact",
+    "salary help"
+  ]
+},
+{
+  "id": 31,
+  "category": "workforce",
+  "question": "What is workforce management?",
+  "answer": "Workforce management is the process of planning, scheduling, tracking and optimizing employees to ensure the right people are assigned to the right work at the right time.",
+  "keywords": [
+    "workforce",
+    "workforce management",
+    "employees",
+    "planning",
+    "staff management",
+    "team management"
+  ]
+},
+{
+  "id": 32,
+  "category": "workforce",
+  "question": "How is employee attendance tracked?",
+  "answer": "Employee attendance is tracked using daily check-in and check-out records, approved leave requests and attendance reports available in the HR system.",
+  "keywords": [
+    "attendance",
+    "check in",
+    "check out",
+    "attendance tracking",
+    "attendance report",
+    "employee attendance"
+  ]
+},
+{
+  "id": 33,
+  "category": "workforce",
+  "question": "What is workforce planning?",
+  "answer": "Workforce planning helps organizations determine the number of employees and skills required to achieve business goals while ensuring efficient resource utilization.",
+  "keywords": [
+    "workforce planning",
+    "planning",
+    "resource planning",
+    "staff planning",
+    "employee planning"
+  ]
+},
+{
+  "id": 34,
+  "category": "workforce",
+  "question": "How are work shifts assigned?",
+  "answer": "Managers create and assign work shifts based on employee availability, business requirements and company scheduling policies.",
+  "keywords": [
+    "shift",
+    "work shift",
+    "assign shift",
+    "shift schedule",
+    "roster",
+    "duty schedule"
+  ]
+},
+{
+  "id": 35,
+  "category": "workforce",
+  "question": "How can employees update their profile information?",
+  "answer": "Employees can update personal details such as contact information, address and emergency contacts from the Employee Profile section. Some changes may require HR approval.",
+  "keywords": [
+    "employee profile",
+    "update profile",
+    "personal details",
+    "contact information",
+    "profile update"
+  ]
+},
+{
+  "id": 36,
+  "category": "workforce",
+  "question": "How is employee performance managed?",
+  "answer": "Employee performance is managed through regular goal setting, periodic performance reviews, manager feedback and performance ratings.",
+  "keywords": [
+    "performance",
+    "performance review",
+    "employee review",
+    "feedback",
+    "performance rating",
+    "goals"
+  ]
+},
+{
+  "id": 37,
+  "category": "workforce",
+  "question": "What is the employee onboarding process?",
+  "answer": "Employee onboarding includes document verification, account creation, policy orientation, system access, department introduction and initial training before starting regular work.",
+  "keywords": [
+    "onboarding",
+    "new employee",
+    "joining process",
+    "orientation",
+    "employee joining",
+    "new hire"
+  ]
+},
+{
+  "id": 38,
+  "category": "workforce",
+  "question": "What is the employee offboarding process?",
+  "answer": "Employee offboarding includes resignation acceptance, knowledge transfer, return of company assets, account deactivation, final payroll processing and exit formalities.",
+  "keywords": [
+    "offboarding",
+    "employee exit",
+    "resignation",
+    "exit process",
+    "final settlement",
+    "leaving company"
+  ]
+},
+{
+  "id": 39,
+  "category": "workforce",
+  "question": "Why is workforce scheduling important?",
+  "answer": "Workforce scheduling ensures adequate staffing, improves productivity, reduces overtime and helps maintain balanced workloads across teams.",
+  "keywords": [
+    "scheduling",
+    "workforce scheduling",
+    "staff scheduling",
+    "employee schedule",
+    "work schedule"
+  ]
+},
+{
+  "id": 40,
+  "category": "workforce",
+  "question": "How can managers monitor workforce productivity?",
+  "answer": "Managers can monitor workforce productivity using attendance reports, task completion status, performance reviews, utilization reports and workforce analytics available in the HR system.",
+  "keywords": [
+    "productivity",
+    "analytics",
+    "employee productivity",
+    "performance report",
+    "utilization",
+    "workforce analytics"
+  ]
+}
+]
