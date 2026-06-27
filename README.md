@@ -58,32 +58,32 @@ The HR AI Assistant is a modern, responsive chatbot application designed to help
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        Frontend                              │
-│  ┌─────────────┐  ┌──────────────┐  ┌───────────────────┐  │
+│                        Frontend                             │
+│  ┌──────────────┐  ┌──────────────┐  ┌───────────────────┐  │
 │  │ ChatContainer│  │ ChatMessage  │  │   ChatInput       │  │
-│  └─────────────┘  └──────────────┘  └───────────────────┘  │
+│  └──────────────┘  └──────────────┘  └───────────────────┘  │
 └────────────────────────────┬────────────────────────────────┘
                              │ API Call
                              ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                     API Layer (route.ts)                     │
+│                     API Layer (route.ts)                    │
 └────────────────────────────┬────────────────────────────────┘
                              │
                              ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                      Service Layer                           │
-│  ┌─────────────┐  ┌──────────────┐  ┌───────────────────┐  │
-│  │  AI Service │  │Knowledge Svc │  │  Prompt Service   │  │
-│  └─────────────┘  └──────────────┘  └───────────────────┘  │
+│                      Service Layer                          │
+│  ┌─────────────┐  ┌──────────────┐  ┌───────────────────┐   │
+│  │  AI Service │  │Knowledge Svc │  │  Prompt Service   │   │
+│  └─────────────┘  └──────────────┘  └───────────────────┘   │
 └────────────────────────────┬────────────────────────────────┘
                              │
                              ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                       Data Layer                             │
-│  ┌─────────────────────┐  ┌─────────────────────────────┐ │
-│  │   knowledge.json    │  │        Gemini AI             │ │
-│  │   (40+ HR entries)  │  │    (Response Generation)     │ │
-│  └─────────────────────┘  └─────────────────────────────┘ │
+│                       Data Layer                            │
+│  ┌─────────────────────┐  ┌─────────────────────────────┐   │
+│  │   knowledge.json    │  │        Gemini AI            │   │
+│  │   (40+ HR entries)  │  │    (Response Generation)    │   │
+│  └─────────────────────┘  └─────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -264,39 +264,39 @@ The system uses structured prompts that include:
          │
          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    Text Normalization                         │
-│  • Convert to lowercase                                      │
-│  • Remove punctuation                                         │
-│  • Tokenize words                                            │
-│  • Remove stop words                                         │
+│                    Text Normalization                       │
+│  • Convert to lowercase                                     │
+│  • Remove punctuation                                       │
+│  • Tokenize words                                           │
+│  • Remove stop words                                        │
 └────────┬────────────────────────────────────────────────────┘
          │
          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    Synonym Mapping                            │
+│                    Synonym Mapping                          │
 │  • "vacation" → "leave"                                     │
 │  • "holiday" → "leave"                                      │
-│  • "time off" → "leave"                                    │
+│  • "time off" → "leave"                                     │
 └────────┬────────────────────────────────────────────────────┘
          │
          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    Keyword Matching                          │
-│  • Match against knowledge base keywords                     │
+│                    Keyword Matching                         │
+│  • Match against knowledge base keywords                    │
 │  • Calculate relevance score                                │
 │  • Rank by score                                            │
 └────────┬────────────────────────────────────────────────────┘
          │
          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                  Context Selection                           │
+│                  Context Selection                          │
 │  • Select top N relevant entries                            │
 │  • Build context prompt                                     │
 └────────┬────────────────────────────────────────────────────┘
          │
          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                  Gemini AI Generation                        │
+│                  Gemini AI Generation                       │
 │  • Generate natural language response                       │
 │  • Format with markdown                                     │
 └────────┬────────────────────────────────────────────────────┘
@@ -305,7 +305,7 @@ The system uses structured prompts that include:
 ┌─────────────────┐
 │   AI Response   │
 │  "To apply for  │
-│  leave, log in   │
+│  leave, log in  │
 │  to the HR      │
 │  portal..."     │
 └─────────────────┘
@@ -424,24 +424,24 @@ The chatbot contains **40+ structured HR knowledge entries** divided into:
 ### Chat Interface
 ```
 ┌─────────────────────────────────────────┐
-│  🤖 HR AI Assistant                     │
+│  🤖 HR AI Assistant                    │
 ├─────────────────────────────────────────┤
 │                                         │
-│  ┌─────────────────────────────────┐   │
-│  │ Hello! How can I help you      │   │
-│  │ today with your HR questions?   │   │
-│  └─────────────────────────────────┘   │
+│  ┌─────────────────────────────────┐    │
+│  │ Hello! How can I help you       │    │
+│  │ today with your HR questions?   │    │
+│  └─────────────────────────────────┘    │
 │                                         │
 │                    ┌─────────────────┐  │
 │                    │ How do I apply  │  │
 │                    │ for leave?      │  │
 │                    └─────────────────┘  │
 │                                         │
-│  ┌─────────────────────────────────┐   │
-│  │ To apply for leave, log in to  │   │
-│  │ the HR portal, navigate to the │   │
-│  │ Leave section...               │   │
-│  └─────────────────────────────────┘   │
+│  ┌─────────────────────────────────┐    │
+│  │ To apply for leave, log in to   │    │
+│  │ the HR portal, navigate to the  │    │
+│  │ Leave section...                │    │
+│  └─────────────────────────────────┘    │
 │                                         │
 ├─────────────────────────────────────────┤
 │  [Type your message...          ] [➤]  │
