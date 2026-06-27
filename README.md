@@ -118,7 +118,6 @@ ai-chatbot/
 │   ├── lib/
 │   │   ├── constants.ts          # App constants
 │   │   ├── gemini.ts             # Gemini AI configuration
-│   │   ├── langchain.ts          # LangChain setup
 │   │   └── prompt.ts             # Prompt templates
 │   ├── services/                 # Business logic layer
 │   │   ├── ai.service.ts         # AI generation service
